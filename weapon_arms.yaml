@@ -6,11 +6,24 @@
   base: piercing
   die: 4
   hands: 1
+  multistrike: 1.5
 - greataxe
   base: blunt
   die: 10
-  hands: 1
+  hands: 2
 - shield
   bonus: DEF
-
-
+- shortbow
+  hands: 2
+  die: 6
+  ammo: arrow
+  reload: 1
+- light crossbow
+  hands: 2
+  die: 8
+  ammo: bolt
+  reload: 1.5
+- sling
+  hands: 2
+  die: 4
+  ammo: stone
