@@ -2,13 +2,13 @@
   continuous:5
 
 - acid
-  penalty: DEF
+  decay: 3
 
 - fire
   continuous: 3
 
 - ice
-  penalty: AGL
+  stun: 10
 
 - water
   penalty: DEF
@@ -19,7 +19,6 @@
 - air
   penalty: ATT
   
-
 - psychic:
   confusion: 5
 
@@ -31,7 +30,6 @@
 
 - radiant
   penalty: AGL
-
 
 # Melee
 
@@ -45,10 +43,10 @@
 
 - blunt
   # brusing
-  penalty: DEF
+  decay: 5
 
 - piercing
-  ignore: ARMOUR
+  penalty: DEF
 
 - slashing
   # bleeding
