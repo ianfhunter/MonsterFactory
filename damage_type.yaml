@@ -17,7 +17,7 @@
   penalty: AGL
 
 - air
-  penalty: ATT
+  move: 5
   
 - psychic:
   confusion: 5
