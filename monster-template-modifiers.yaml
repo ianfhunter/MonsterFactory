@@ -35,11 +35,25 @@ fungal:
     - air
   weakness:
     - fire
-    
+ 
+tough:
+ - bonus: DEF
+ 
+weak:
+ - penalty: DEF
+ 
+wounded:
+ - penalty: CON
+  
+fast:
+ - bonus: AGL
+ 
+slow:
+ - penalty: AGL
 
- giant:
+giant:
  - bonus: CON
  
- tiny:
+tiny:
  - penalty: CON
 
