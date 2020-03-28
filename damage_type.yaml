@@ -1,27 +1,56 @@
 - poison
+  continuous:5
 
 - acid
+  penalty: DEF
 
 - fire
+  continuous: 3
 
 - ice
+  penalty: AGL
 
 - water
+  penalty: DEF
 
 - earth
+  penalty: AGL
 
 - air
+  penalty: ATT
+  
 
-- psychic
+- psychic:
+  confusion: 5
 
-- electric
+- electric:
+  target: adjacent
 
 - necrotic
+  penalty: ATK
 
 - radiant
+  penalty: AGL
+
 
 # Melee
 
 - silver
+  fragile: 100
+  base: False
 
 - gold
+  fragile: 50
+  base: False
+
+- blunt
+  # brusing
+  penalty: DEF
+
+- piercing
+  ignore: ARMOUR
+
+- slashing
+  # bleeding
+  continuous: 3
+
