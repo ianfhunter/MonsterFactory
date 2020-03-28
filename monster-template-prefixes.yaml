@@ -52,3 +52,5 @@ silver:
 gold:
   immune: gold
   
+alpha:
+ - bonus: CON
