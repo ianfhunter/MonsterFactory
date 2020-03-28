@@ -1,0 +1,45 @@
+undead:
+  necrotic: 0.5
+  radiant: 0.0
+  weakness:
+    - radiant
+  heals:
+    - necrotic
+  variants:
+    - skeletal:
+      revive:
+        - blunt
+    - zombie:
+       acid: 0.25
+       weakness:
+         - fire
+       revive:
+         - fire
+         - head
+    - vampire: 
+       absorb: 0.75
+    - mummified:
+       fire: 0.2
+       air: 0.2
+    - spectral:
+      immune:
+       - blunt
+       - piercing
+       - slashing
+       
+fungal:
+  heals:
+    - earth
+    - water
+  resists:
+    - air
+  weakness:
+    - fire
+    
+
+ giant:
+ - bonus: CON
+ 
+ tiny:
+ - penalty: CON
+
