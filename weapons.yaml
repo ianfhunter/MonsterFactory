@@ -1,7 +1,0 @@
-- shortsword
-  base: slashing
-  die: 6
-- dagger
-  base: piercing
-  die: 4
-  multiple: 1.5

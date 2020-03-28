@@ -1,0 +1,16 @@
+- shortsword
+  base: slashing
+  die: 6
+  hands: 1
+- dagger
+  base: piercing
+  die: 4
+  hands: 1
+- greataxe
+  base: blunt
+  die: 10
+  hands: 1
+- shield
+  bonus: DEF
+
+
