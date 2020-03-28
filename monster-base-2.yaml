@@ -1,0 +1,22 @@
+# Tier 1 Monsters
+
+Cyclops:
+  hands: 2
+  large
+  
+Dragon:
+  mouth
+  breath
+  claws
+  wings
+  bonus: ATT
+  
+Phoenix:
+  wings
+  magic
+  
+Wyvern:
+  wings
+  claws
+  breath
+  claws
