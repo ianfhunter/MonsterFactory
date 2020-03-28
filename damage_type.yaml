@@ -29,7 +29,7 @@
   penalty: ATK
 
 - radiant
-  penalty: AGL
+  multistrike:1.5
 
 # Melee
 
