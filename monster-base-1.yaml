@@ -1,0 +1,36 @@
+# Tier 1 Monsters
+
+Slime:
+  acid: 0.3
+  body
+
+Rat:
+  claws
+  
+Harpy:
+  wings
+  claws
+  
+Goblin:
+  hands: 2
+  small
+  
+Wisp:
+  body
+
+Snake:
+  mouth
+  body
+  
+Sprite:
+  claws
+  wings
+  magic
+  
+Wolf:
+  claws
+  mouth
+  
+Alligator:
+  mouth
+  
