@@ -1,36 +1,75 @@
 # Tier 1 Monsters
 
-Slime:
-  acid: 0.3
+Ooze: 
   body
+  Slime:
+    acid: 0.3
+    immune: acid
 
-Rat:
-  claws
+Beast: 
+  Rat:
+    claws
+
+  Snake:
+    mouth
+    body
+
+  Wolf:
+    claws
+    mouth
   
-Harpy:
-  wings
-  claws
+  Alligator:
+    mouth
+    variant:
+      Crocodile
+
+
+Monstrosity:
+  Harpy:
+    wings
+    claws
+    resists: air
+
+Goblinoid:
+  Goblin:
+    hands: 2
+    small
+    bonus: AGL
   
-Goblin:
+Illusiory:
+  Wisp:
+    body
+    immune:
+      - piercing
+      - blunt
+      - slashing
+
+Fae:  
+  Sprite:
+    claws
+    wings
+    magic
+    
+Humanoid:
   hands: 2
-  small
-  
-Wisp:
-  body
-
-Snake:
-  mouth
-  body
-  
-Sprite:
-  claws
-  wings
-  magic
-  
-Wolf:
-  claws
-  mouth
-  
-Alligator:
-  mouth
-  
+  Guard:
+    bonus: DEF
+    variant:
+      Mercenary
+      Soldier
+  Bandit
+    bonus: AGL
+    postfix:
+      Leader
+        bonus: CON
+    variant:
+      Thief
+  Mage
+    bonus: MAG
+    magic
+    postfix:
+      Apprentice
+        penalty: CON
+    variant:
+      Sorcerer
+      Wizard
