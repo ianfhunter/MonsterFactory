@@ -1,0 +1,32 @@
+- job: guard:
+  bonus: DEF
+  variant:
+    mercenary
+    soldier
+
+- job: bandit
+  bonus: AGL
+  postfix:
+    Leader
+      bonus: CON
+  variant:
+    thief
+
+- job: mage
+  bonus: MAG
+  magic
+  postfix:
+    apprentice
+      penalty: CON
+  variant:
+    sorcerer
+    wizard
+
+- job: bard
+  bonus: MAG
+  penalty: CON
+  weapons: instrument
+  magic
+  variant:
+    musician
+    actor

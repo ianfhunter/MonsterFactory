@@ -1,29 +1,45 @@
-- shortsword
+- name: shortsword
   base: slashing
   die: 6
   hands: 1
-- dagger
+  tags: 
+    - medium
+    - civilized
+- name: dagger
   base: piercing
   die: 4
   hands: 1
   multistrike: 1.5
-- greataxe
+  tags: 
+    - small
+    - civilized
+    - concealable
+    - thrown_4
+
+- name: greataxe
   base: blunt
   die: 10
   hands: 2
-- shield
-  bonus: DEF
-- shortbow
+  tags: 
+    - large
+    - civilized
+- name: shortbow
   hands: 2
   die: 6
   ammo: arrow
   reload: 1
-- light crossbow
+  tags: 
+    - ranged
+- name: light crossbow
   hands: 2
   die: 8
   ammo: bolt
   reload: 1.5
-- sling
+  tags: 
+    - ranged
+- name: sling
   hands: 2
   die: 4
   ammo: stone
+  tags: 
+    - ranged

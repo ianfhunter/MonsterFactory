@@ -1,4 +1,4 @@
-undead:
+- modifier: undead
   necrotic: 0.5
   radiant: 0.0
   weakness:
@@ -16,7 +16,7 @@ undead:
        revive:
          - fire
          - head
-    - vampire: 
+    - vampiric: 
        absorb: 0.75
     - mummified:
        fire: 0.2
@@ -27,7 +27,7 @@ undead:
        - piercing
        - slashing
        
-fungal:
+- modifier: fungal
   heals:
     - earth
     - water
@@ -36,24 +36,24 @@ fungal:
   weakness:
     - fire
  
-tough:
+- modifier: tough
  - bonus: DEF
  
-weak:
+- modifier: weak
  - penalty: DEF
  
-wounded:
+- modifier: wounded
  - penalty: CON
   
-fast:
+- modifier: fast
  - bonus: AGL
  
-slow:
+- modifier: slow
  - penalty: AGL
 
-giant:
+- modifier: giant
  - bonus: CON
  
-tiny:
+- modifier: tiny
  - penalty: CON
 

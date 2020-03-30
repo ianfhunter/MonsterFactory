@@ -1,54 +1,54 @@
-- poison
-  continuous:5
+- type: poison
+  continuous: 5
 
-- acid
+- type: acid
   decay: 3
 
-- fire
+- type: fire
   continuous: 3
 
-- ice
+- type: ice
   stun: 10
 
-- water
+- type: water
   penalty: DEF
 
-- earth
+- type: earth
   penalty: AGL
 
-- air
+- type: air
   move: 5
   
-- psychic:
+- type: psychic
   confusion: 5
 
-- electric:
+- type: electric
   target: adjacent
 
-- necrotic
+- type: necrotic
   penalty: ATK
 
-- radiant
-  multistrike:1.5
+- type: radiant
+  multistrike: 1.5
 
 # Melee
 
-- silver
+- type: silver
   fragile: 100
   base: False
 
-- gold
+- type: gold
   fragile: 50
   base: False
 
-- blunt
+- type: blunt
   # brusing
   decay: 5
 
-- piercing
+- type: piercing
   penalty: DEF
 
-- slashing
+- type: slashing
   # bleeding
   continuous: 3
 
