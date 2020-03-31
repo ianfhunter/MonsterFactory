@@ -22,8 +22,6 @@
     - Shillelagh
       tag:
         - celtic
-  
-
 
 - name: dagger
   base: piercing
@@ -103,9 +101,70 @@
 - name: stick
   hands: 1
   base: piercing
-  die: 2
+  die: 4
   tags: primal
   prefix:
     - sharp
-      die: 3
+      die: 6
+      
+- name: club
+  hands: 1
+  base: blunt
+  die: 4
+  tags: 
+   - primal
+  
+- name: mace
+  hands: 1
+  base: blunt
+  die: 6
+  tags: 
+   - civilized
+  variant:
+   - name: sceptre
+  
 
+
+- name: sickle
+  base: slashing
+  hands: 1
+  die: 6
+  tags:
+    - civilized
+    - celtic
+
+- name: sythe
+  base: slashing
+  hands: 2
+  die: 8
+  tags:
+    - civilized
+    - celtic
+    - large
+    
+- name: warhammer
+  base: blunt
+  hands: 2
+  die: 8
+  tags:
+    - civilized
+    
+- name: war pick
+  base: piercing
+  hands: 2
+  die: 8
+  tags:
+    - civilized
+    
+
+- name: axe
+  base: slashing
+  die: 6
+  hands: 1
+  tags: 
+    - civilized
+    variant:
+     - name: hatchet
+     - name: tomahawk
+       tags: tribal
+       
