@@ -16,7 +16,7 @@
   type: blunt
   stun: 0.2
   variant: 
-    - Bao
+    - Bo
       tags:
         - orientatal
     - Shillelagh
@@ -123,10 +123,24 @@
   variant:
    - name: sceptre
   
-
-
 - name: sickle
   base: slashing
+  hands: 1
+  die: 6
+  tags:
+    - civilized
+    - celtic
+  
+- name: pitchfork
+  base: piercing
+  hands: 1
+  die: 6
+  tags:
+    - civilized
+    - celtic
+    
+- name: shovel
+  base: piercing
   hands: 1
   die: 6
   tags:
@@ -156,15 +170,34 @@
   tags:
     - civilized
     
-
 - name: axe
   base: slashing
   die: 6
   hands: 1
   tags: 
     - civilized
-    variant:
-     - name: hatchet
-     - name: tomahawk
-       tags: tribal
+  variant:
+   - name: hatchet
+   - name: tomahawk
+     tags: tribal
        
+
+- name: whip
+  base: slashing
+  hands: 1
+  die: 4
+  tags:
+    - civilized
+  variant:
+    - name: flail
+      tags:
+      - marine
+      
+- name: bolas
+  base: None
+  hands: 1
+  die: 0
+  stun: 0.8
+  tags:
+    - civilized
+    - marine
