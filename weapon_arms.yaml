@@ -201,3 +201,11 @@
   tags:
     - civilized
     - marine
+      
+- name: knuckle dusters
+  base: blunt
+  hands: 1
+  die: 4
+  stun: 0.2
+  tags:
+    - civilized
