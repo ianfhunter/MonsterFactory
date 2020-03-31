@@ -1,8 +1,9 @@
 - job: guard:
   bonus: DEF
   variant:
-    mercenary
-    soldier
+    - mercenary
+    - soldier
+    - man-at-arms
 
 - job: bandit
   bonus: AGL
@@ -10,7 +11,16 @@
     Leader
       bonus: CON
   variant:
-    thief
+    - thief
+
+- job: sailor
+  bonus: AGL
+  weapons: marine
+  variant:
+    - pirate
+      postfix: 
+        - captain
+          bonus: CON
 
 - job: mage
   bonus: MAG
@@ -19,8 +29,8 @@
     apprentice
       penalty: CON
   variant:
-    sorcerer
-    wizard
+    - sorcerer
+    - wizard
 
 - job: bard
   bonus: MAG
@@ -28,5 +38,13 @@
   weapons: instrument
   magic
   variant:
-    musician
-    actor
+    - musician
+    - actor
+    - minstrel
+
+- job: barbarian
+  bonus: CON
+  weapons: large
+  variant:
+    - blacksmith
+    - wrestler
