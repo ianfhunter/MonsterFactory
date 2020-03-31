@@ -5,6 +5,8 @@
   tags: 
     - medium
     - civilized
+    - military
+
 - name: dagger
   base: piercing
   die: 4
@@ -23,23 +25,69 @@
   tags: 
     - large
     - civilized
+
 - name: shortbow
+  base: piercing
   hands: 2
   die: 6
   ammo: arrow
   reload: 1
   tags: 
     - ranged
+    - civilized
+    - military
+
 - name: light crossbow
+  base: piercing
   hands: 2
   die: 8
   ammo: bolt
   reload: 1.5
   tags: 
     - ranged
+    - civilized
+    - military
+
 - name: sling
+  base: blunt
   hands: 2
   die: 4
   ammo: stone
   tags: 
     - ranged
+    - civilized
+
+- name: trident
+  base: piercing
+  hands: 1
+  die: 6
+  tags:
+    - marine
+
+- name: net
+  base: None
+  hands: 1
+  die: 0
+  stun: 0.5
+  tags: 
+    - marine
+
+- name: spear
+  base: piercing
+  hands: 2
+  die: 8
+  tags:
+    - reach
+    - marine
+    - civilized
+    - military
+
+- name: stick
+  hands: 1
+  base: piercing
+  die: 2
+  tags: primal
+  prefix:
+    - sharp
+      die: 3
+
