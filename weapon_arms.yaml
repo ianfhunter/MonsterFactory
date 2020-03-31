@@ -6,6 +6,24 @@
     - medium
     - civilized
     - military
+    variant:
+    - name: katana
+      bonus: AGL
+      tags:
+        - oriental
+
+- name: quarterstaff
+  type: blunt
+  stun: 0.2
+  variant: 
+    - Bao
+      tags:
+        - orientatal
+    - Shillelagh
+      tag:
+        - celtic
+  
+
 
 - name: dagger
   base: piercing
