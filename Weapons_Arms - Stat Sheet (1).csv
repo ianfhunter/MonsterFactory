@@ -1,0 +1,82 @@
+Name,Category,Civilization,Accessibility,Damage,Dice,Hands,Size,Reach,Properties,Tags
+Shortsword,Blades,"Roman, Common","Military, Common",Slashing,6,1,M,S,,
+Bastard Sword,,"Roman, Common","Military, Common",Slashing,6,1,M,S,,
+Longsword,,"Roman, Common",Military,Slashing,8,2,M,S,,
+Rapier,,"Roman, Common",Nobility,Piercing,6,1,M,S,bonus: AGL,
+Flachion,,"Roman, Common",Common,Slashing,6,1,M,S,,
+Dadao,,"Oriental, Common",Common,Slashing,"""","""",M,S,,
+Katana,,"Oriental, Common",Common,Slashing,"""","""",M,S,bonus: AGL,
+Greatsword,,Common,Miliitary,Slashing,10,2,L,S,,
+Quarterstaff,Staffs,Roman,"Household, Common",Blunt,8,2,M,S,,
+Bo,,Oriental,"Household, Common",Blunt,8,2,M,S,,
+Jo,,Oriental,"Household, Common",Blunt,8,2,M,S,,
+Hanbo,,Oriental,"Household, Common",Blunt,"""",1,M,S,,
+Shillelagh,,Celtic,"Household, Common",Piercing,8,2,M,S,earth:0.5,
+Dagger,Knives,Common,Common,Piercing,4,1,S,S,multistrike: 0.5,"conceal: True
+thrown: True"
+Kuhkri,,Indian,Common,Piercing,4,1,S,S,multistrike: 0.5,"conceal: True
+thrown: True"
+Sai,,Oriental,Common,Piercing,6,1,S,S,multistrike: 0.5,conceal: True
+Knife,,Common,"Household, Common",Piercing,3,1,S,S,,"conceal: True
+thrown: True"
+Short Bow,Bows,Common,"Military, Nobility",Piercing,6,2,M,L,,ammo: arrow
+Long Bow,,Common,"Military, Nobility",Piercing,8,2,M,L,,ammo: arrow
+Light Crossbow,Crossbow,Common,Military,Piercing,6,2,M,L,,ammo: bolt
+Arbalest,,Common,Military,Piercing,6,2,M,L,,ammo: bolt
+Sling,Slings,Common,Common,Piercing,4,2,M,L,,ammo: stone
+Slingshot,,Common,Household,Piercing,4,2,M,L,,ammo: stone
+Club,Clubs,"Primal, Common",Household,Blunt,6,1,M,S,,
+Shovel,,Common,Household,Blunt,4,1,M,S,,
+Spade,,Common,Household,Blunt,4,1,M,S,,
+Trident,Forks,Roman,"Marine, Gladiatorial",Piercing,6,1,M,S,,
+Pitchfork,,Common,Household,Piercing,4,1,M,S,,
+Scythe,Harvesters,Celtic,Household,Slashing,8,2,M,S,,
+Kama,,Oriental,Household,Slashing,4,1,M,S,,
+Sickle,,Celtic,Household,Slashing,4,1,M,S,,
+Mace,Batons,Roman,Military,Blunt,6,1,M,S,,
+Sap,,Roman,Military,Blunt,6,1,M,S,,
+Blackjack,,Roman,Military,Blunt,6,1,M,S,,
+Morningstar,,Roman,"Household, Military",Blunt,6,1,M,S,,
+Baton,,Roman,Military,Blunt,6,1,M,S,,
+Sceptre,,Roman,"Religious, Nobility",Blunt,6,1,M,S,,
+Flail,Spiked,Roman,Miliitary,Blunt,6,1,M,S,pierce:0.2,
+Axe,Axes,Common,"Household, Common",Slashing,6,1,M,S,,thrown: True
+Hatchet,,Common,"Household, Common",Slashing,6,1,M,S,,thrown: True
+Tomahawk,,"American, Tribal",Common,Slashing,6,1,M,S,,thrown: True
+Greataxe,,Common,Miliitary,Slashing,10,2,L,S,,
+Whip,Whips,Common,Miliitary,Slashing,4,1,M,M,,
+Chain Whip,,Primal,"Gladiatorial, Covert",Slashing,8,1,L,M,,
+Flail Whip,,Common,"Miliitary, Marine",Slashing,6,1,M,M,,
+Knuckledusters,Gloves,Common,Covert,Blunt,4,1,S,S,,
+Bagh Nakh,,Indian,Covert,Slashing,6,1,S,S,,
+Bolas,String,"American, Tribal",Common,None,0,1,S,L,,thrown: True
+Net,,Roman,"Marine, Gladiatorial",None,0,1,M,L,,thrown: True
+Stick,Improvised,Primal,Common,Piercing,3,1,M,S,,
+Spear,Spears,Roman,Military,Piercing,6,1,M,M,,
+Spetum,,Roman,Military,Piercing,6,1,M,M,,
+Ahlspiess,,Roman,Military,Piercing,6,1,M,M,,
+Pike,,Roman,Military,Piercing,6,1,M,M,,
+Javelin,,Roman,Military,Piercing,6,1,M,M,,thrown: True
+Halbeard,Pole axes,Roman,Miliitary,Slashing,8,2,L,M,,
+Poleaxe,,Roman,Military,Piercing,6,1,M,M,,
+Guisarme,,Roman,Military,Piercing,6,1,M,M,,
+Glaive,,Roman,Military,Piercing,6,1,M,M,,
+Voulge,,Roman,Military,Piercing,6,1,M,M,,
+Fauchard,,Roman,Military,Piercing,6,1,M,M,,
+War Hammer,,Common,Miliitary,Blunt,10,2,L,S,,hurts: beast
+Ranseur,,Roman,Miliitary,Slashing,8,2,L,M,,
+Partisan,,Roman,Miliitary,Slashing,8,2,L,M,,
+Shashka,Sabre,Persian,Military,Slashing,6,1,M,S,,
+Scimitar,,"Persian, Common",Military,Slashing,6,1,M,S,,
+Sabre,,Persian,Military,Slashing,6,1,M,S,,
+Lance,Lances,Common,"Nobility, Military",Piercing,10,1,L,M,,mounted
+Blowgun,Blowgun,"Tribal, Common","Common, Covert",Piercing,2,2,S,L,,"ammo: dart
+conceal: True"
+Shuriken,Thrown,Oriental,Covert,Piercing,4,1,S,S,,thrown: True
+Dart,,Common,Covert,Piercing,4,1,S,S,,thrown: True
+Caltrop,Trap,Roman,Covert,Piercing,4,1,S,S,,"thrown: True
+trap: True"
+Pickaxe,Picks,Common,Household,Piercing,6,1,S,S,,
+War Pick,,Common,Miliitary,Piercing,10,2,L,S,,
+Siangham,Nunchucks,Oriental,Miliitary,Blunt,6,2,S,S,deflect: 0.5,
+Nunchucks,,Oriental,Miliitary,Blunt,6,2,S,S,deflect: 0.5,
