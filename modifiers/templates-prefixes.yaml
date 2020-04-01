@@ -41,6 +41,63 @@
  
 - modifier: weak
  - penalty: DEF
+
+ice:
+  ice: 0.5
+  weakness: 
+    - fire
+  heals:
+    - ice
+  variant:
+    - frost
+    
+fire:
+  fire: 0.5
+  weakness:
+   - water
+  heals:
+    - fire
+  variant:
+    - lava
+    - ember
+  
+earth:
+  earth: 0.5
+  heals:
+    - earth
+  variant: 
+    - dirt
+  
+air: 
+  air: 0.5
+  heals:
+    - air
+  variant:
+    - wind
+    
+life:
+  heals:
+    - radiant
+  radiant: 0.5
+  
+death:
+  heals:
+    - necrotic
+  necrotic: 0.5
+  
+acid:
+  heals:
+    - acid
+  acid: 0.5
+  
+silver:
+  immune: silver
+
+gold:
+  immune: gold
+  
+alpha:
+ - bonus: CON
  
 - modifier: wounded
  - penalty: CON
