@@ -7,3 +7,4 @@ In early stage whiteboarding
 
 Some inspiration:
 - https://boardgamegeek.com/blogpost/67112/design-diary-2-damage-types-are-lazy-design
+- https://www.youtube.com/watch?v=4-7TtPX5uhg
