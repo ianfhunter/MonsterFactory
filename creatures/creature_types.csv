@@ -1,0 +1,27 @@
+Type,Habitat,Body,Properties,Tags
+Ooze,Dungeon,skin: corrosive,,
+Undead,Dungeon,,"weak: radiant
+heals: necrotic",
+Beast,Common,,fear: fire,primal
+Plant,"Common, NOT Civilization",,"weak: fire
+heals: earth",
+Monstrosity,"Common, NOT Civilization",,,brutish
+Goblinoid,Common,"Hands: 1
+Head: 1
+Legs: 2",,tribal
+Humanoid,Common,"Hands: 1
+Head: 1
+Legs: 2",,civilized
+Fae,Forest,,magic:True,
+Celestial,Summoning,,,
+Incorporeal,Dungeon,,"immune: blunt,
+immune: piercing,
+immune: slashing",
+Draconic,Lair,Teeth: 1,,
+Construct,Civilization,,bonus: DEF,
+Abyssal,Summoning,,,
+Elemental,Summoning,,bonus: CON,
+Gaseous,Dungeon,,"immune: blunt,
+immune: piercing,
+immune: slashing
+weak: force",

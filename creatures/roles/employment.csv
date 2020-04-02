@@ -1,0 +1,14 @@
+Job Title,Apply Type,Apply Habitat,Apply Body,Properties,Tags
+Guard,,Military,,bonus: DEF,"alias: mercenary
+alias: man-at-arms
+alias: soldier"
+Bandit,,Covert,,bonus: AGL,alias: thief
+Sailor,,Marine,,bonus:AGL,alias:pirate
+Mage,,,,"bonus:MAG
+magic","alias:sorceror
+alias:wizard"
+Bard,,,,"stun:1
+magic","alias:musician
+alias:minstrel
+alias:actor"
+Barbarian,,,,bonus:CON,

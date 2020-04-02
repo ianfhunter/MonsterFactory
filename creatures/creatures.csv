@@ -1,0 +1,98 @@
+Name,Type,Size,Body,Habitat,Properties,Tags
+Human,Humanoid,Medium,,,,commander
+Dwarf,Humanoid,Medium,,,bonus: CON,
+Halfling,Humanoid,Small,,,bonus: AGL,
+Elf,Humanoid,Medium,,,bonus: MAG,
+Goliath,Humanoid,Large,,Mountains,,
+Orc,Humanoid,Medium,,,,tribal
+Changeling,Humanoid,Medium,,,shapeshifter: True,
+Slime,Ooze,Medium,,,"multiplier: 3
+acid: 1",
+Pudding,Ooze,Medium,,,"bonus: CON
+poison: 1",
+Ant,Beast,Tiny,Pincers: 1,,,
+Rat,Beast,Small,"Claws: 2
+Teeth: 1",,"swarms: True
+bonus: AGL",
+Bat,Beast,Small,"Wings: 2
+Teeth: 1",,swarms: True,blind
+Bear,Beast,Medium,"Claws: 2
+Teeth: 1",,bonus: ATT,
+Ape,Beast,Medium,Hands: 2,,bonus: ATT,
+Bee,Beast,Small,"Wings: 2
+Stinger: 1",,swarms: True,
+Boar,Beast,Medium,"Hooves: 4
+Tusks: 2",,"bonus: ATT
+charges: True",
+Scorpion,Beast,Small,"Wings: 2
+Stinger: 1",,swarms: True,
+Snake,Beast,Medium,"Fangs: 1
+constrict_spine: 1",,,
+Wolf,Beast,Medium,"Teeth: 1
+Claws: 4",,,
+Alligator,Beast,Medium,Teeth: 1,,,
+Crocodile,Beast,Medium,Teeth: 1,,,
+Harpy,Monstrosity,Medium,"Wings: 2
+Claws: 2",,resist: air,
+Cyclops,Monstrosity,Large,"Hands: 2
+Head: 1
+Legs: 2",,,brutish
+Centaur,Monstrosity,Large,"Hooves: 4
+Hands: 2",,resists: earth,civilized
+Goblin,Goblinoid,Small,"Hands: 2
+Head: 1
+Legs: 2",,"flees: True
+hides: True
+bonus: AGL","civilized
+covert"
+Ogre,Goblinoid,Large,"Hands: 2
+Head: 1
+Legs: 2",,bonus: CON,brutish
+Hobgoblin,Goblinoid,Large,"Hands: 2
+Head: 1
+Legs: 2",,,"brutish
+commander"
+Wisp,Incorporeal,Small,,,"hides: True
+bonus: AGL
+magic:True",floating
+Ghost,Incorporeal,Medium,"Hands: 2
+Head: 1",,magic:True,floating
+Wraith,Incorporeal,Medium,,,magic:True,floating
+Sprite,Fae,Small,"Hands: 2
+Head: 1
+Legs: 2
+Wings: 2",,magic:True,
+Fairy,Fae,Small,"Hands: 2
+Head: 1
+Legs: 2
+Wings: 2",,magic:True,
+Skeleton,Undead,Medium,"Hands: 2
+Head: 1
+Legs: 2",,"revive: blunt : 1",
+Zombie,Undead,Medium,"Hands: 2
+Head: 1
+Legs: 2",,"weak: fire
+revive: fire : head : 3",
+Vampire,Undead,Medium,"Hands: 2
+Head: 1
+Legs: 2",,lifesteal: 1,commander
+Mummy,Undead,Medium,"Hands: 2
+Head: 1
+Legs: 2",,"fire: 1
+air: 1
+weak: water
+resist: earth
+resist: fire
+heals: air",
+Dragon,Draconic,Huge,"Wings: 2
+Legs: 4
+Teeth: 1",,"breath_weapon: 1
+bonus: ATT",commander
+Wyvern,Draconic,Large,"Wings: 2
+Legs: 2
+Claws: 2
+Teeth: 1",,,
+Phoenix,Elemental,Large,"Wings: 2
+Beak: 1
+Claws: 2",,"fire: 1
+revive: 1",

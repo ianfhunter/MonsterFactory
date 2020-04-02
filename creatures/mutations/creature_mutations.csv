@@ -1,0 +1,40 @@
+Mutation,Type,Habitat,Body,Properties,Tags
+Slimy,Ooze,Dungeon,,,incompatible:type:Ooze
+Skeletal,Undead,Dungeon,,,incompatible:type:Undead
+Spectral,,Dungeon,,,
+Radiant,Celestial,Dungeon,,radiant: 1,incompatible:type:Celestial
+Mechanical,Construct,Civilization,,bonus: DEF,incompatible:type:Construct
+Brave,,,,fear: 0,hidden: True
+Resilient,,,,weak: 0,hidden: True
+Fast,,,,bonus: AGL,hidden: True
+Slow,,,,penalty:AGL,hidden: True
+Tough,,,,bonus: DEF,hidden: True
+Injured,,,,penalty: CON,"hidden: True
+alias: wounded"
+Weak,,,,penalty:DEF,hidden: True
+Winged,,,wings: 2,,incompatible:body:wings
+Vampiric,Undead,,,lifesteal:1,incompatible:type:Undead
+Mumified,Undead,,,"fire:1
+air:1",incompatible:type:Undead
+Zombie,Undead,,,"revive:fire
+revive:air
+revive:3",incompatible:type:Undead
+Spectral,Undead,,,"immune:blunt
+immune:slashing
+immune:piercing",incompatible:type:Undead
+Fungal,Plant,,,,incompatible:type:Plant
+Ice,,,,ice:1,incompatible:type:elemental
+Fire,,,,fire:1,incompatible:type:elemental
+Earth,,,,earth:1,incompatible:type:elemental
+Air,,,,air:1,incompatible:type:elemental
+Life,,,,life:1,incompatible:type:elemental
+Death,,,,death:1,incompatible:type:elemental
+Acid,,,,acid:1,
+Poisonous,,,,,
+Silver,,,,immune:silver,
+Gold,,,,immune:gold,
+Alpha,,,,,compatible:type:beast
+Giant,,,,bonus: CON
+size:+,
+Tiny,,,,penalty: CON
+size:-,
