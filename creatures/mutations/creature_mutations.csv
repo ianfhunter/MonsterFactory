@@ -38,3 +38,5 @@ Giant,,,,bonus: CON
 size:+,
 Tiny,,,,penalty: CON
 size:-,
+Dire,,,,bonus:CON,size:+
+compatible:type:beast,
